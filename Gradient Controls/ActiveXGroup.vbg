@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=ControlTest.vbp
+Project=ControlDemo.vbp
+Project=ControlDemo2.vbp
