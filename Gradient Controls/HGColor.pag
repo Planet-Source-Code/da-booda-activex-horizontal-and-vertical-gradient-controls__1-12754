@@ -1,0 +1,369 @@
+VERSION 5.00
+Begin VB.PropertyPage HGColor 
+   Caption         =   "Color"
+   ClientHeight    =   3600
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4800
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3600
+   ScaleWidth      =   4800
+   Begin VB.TextBox txtBarBlue 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   29
+      Top             =   2280
+      Width           =   900
+   End
+   Begin VB.TextBox txtBarGreen 
+      Height          =   330
+      Left            =   1920
+      TabIndex        =   27
+      Top             =   2280
+      Width           =   900
+   End
+   Begin VB.TextBox txtBarRed 
+      Height          =   330
+      Left            =   840
+      TabIndex        =   25
+      Top             =   2280
+      Width           =   900
+   End
+   Begin VB.TextBox txtBackBlue 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   23
+      Top             =   1680
+      Width           =   900
+   End
+   Begin VB.TextBox txtBackGreen 
+      Height          =   330
+      Left            =   1920
+      TabIndex        =   21
+      Top             =   1680
+      Width           =   900
+   End
+   Begin VB.TextBox txtBackRed 
+      Height          =   330
+      Left            =   840
+      TabIndex        =   19
+      Top             =   1680
+      Width           =   900
+   End
+   Begin VB.TextBox txtBoxBlue 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   17
+      Top             =   2880
+      Width           =   900
+   End
+   Begin VB.TextBox txtBoxGreen 
+      Height          =   330
+      Left            =   1920
+      TabIndex        =   15
+      Top             =   2880
+      Width           =   900
+   End
+   Begin VB.TextBox txtBoxRed 
+      Height          =   330
+      Left            =   840
+      TabIndex        =   13
+      Top             =   2880
+      Width           =   900
+   End
+   Begin VB.TextBox txtEndBlue 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   11
+      Top             =   1080
+      Width           =   900
+   End
+   Begin VB.TextBox txtEndGreen 
+      Height          =   330
+      Left            =   1920
+      TabIndex        =   9
+      Top             =   1080
+      Width           =   885
+   End
+   Begin VB.TextBox txtEndRed 
+      Height          =   330
+      Left            =   840
+      TabIndex        =   7
+      Top             =   1080
+      Width           =   885
+   End
+   Begin VB.TextBox txtStartBlue 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   5
+      Top             =   480
+      Width           =   885
+   End
+   Begin VB.TextBox txtStartGreen 
+      Height          =   330
+      Left            =   1920
+      TabIndex        =   3
+      Top             =   480
+      Width           =   885
+   End
+   Begin VB.TextBox txtStartRed 
+      Height          =   330
+      Left            =   840
+      TabIndex        =   1
+      Top             =   480
+      Width           =   885
+   End
+   Begin VB.Label lblBarBlue 
+      Caption         =   "BarBlue:"
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   28
+      Top             =   2040
+      Width           =   900
+   End
+   Begin VB.Label lblBarGreen 
+      Caption         =   "BarGreen:"
+      ForeColor       =   &H0000FF00&
+      Height          =   240
+      Left            =   1920
+      TabIndex        =   26
+      Top             =   2040
+      Width           =   900
+   End
+   Begin VB.Label lblBarRed 
+      Caption         =   "BarRed:"
+      ForeColor       =   &H000000FF&
+      Height          =   240
+      Left            =   840
+      TabIndex        =   24
+      Top             =   2040
+      Width           =   900
+   End
+   Begin VB.Label lblBackBlue 
+      Caption         =   "BackBlue:"
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   22
+      Top             =   1440
+      Width           =   900
+   End
+   Begin VB.Label lblBackGreen 
+      Caption         =   "BackGreen:"
+      ForeColor       =   &H0000FF00&
+      Height          =   240
+      Left            =   1920
+      TabIndex        =   20
+      Top             =   1440
+      Width           =   900
+   End
+   Begin VB.Label lblBackRed 
+      Caption         =   "BackRed:"
+      ForeColor       =   &H000000FF&
+      Height          =   240
+      Left            =   840
+      TabIndex        =   18
+      Top             =   1440
+      Width           =   900
+   End
+   Begin VB.Label lblBoxBlue 
+      Caption         =   "BoxBlue:"
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   16
+      Top             =   2640
+      Width           =   900
+   End
+   Begin VB.Label lblBoxGreen 
+      Caption         =   "BoxGreen:"
+      ForeColor       =   &H0000FF00&
+      Height          =   240
+      Left            =   1920
+      TabIndex        =   14
+      Top             =   2640
+      Width           =   900
+   End
+   Begin VB.Label lblBoxRed 
+      Caption         =   "BoxRed:"
+      ForeColor       =   &H000000FF&
+      Height          =   240
+      Left            =   840
+      TabIndex        =   12
+      Top             =   2640
+      Width           =   900
+   End
+   Begin VB.Label lblEndBlue 
+      Caption         =   "EndBlue:"
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   10
+      Top             =   840
+      Width           =   900
+   End
+   Begin VB.Label lblEndGreen 
+      Caption         =   "EndGreen:"
+      ForeColor       =   &H0000FF00&
+      Height          =   240
+      Left            =   1920
+      TabIndex        =   8
+      Top             =   840
+      Width           =   885
+   End
+   Begin VB.Label lblEndRed 
+      Caption         =   "EndRed:"
+      ForeColor       =   &H000000FF&
+      Height          =   240
+      Left            =   840
+      TabIndex        =   6
+      Top             =   840
+      Width           =   885
+   End
+   Begin VB.Label lblStartBlue 
+      Caption         =   "StartBlue:"
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   4
+      Top             =   240
+      Width           =   885
+   End
+   Begin VB.Label lblStartGreen 
+      Caption         =   "StartGreen:"
+      ForeColor       =   &H0000FF00&
+      Height          =   240
+      Left            =   1920
+      TabIndex        =   2
+      Top             =   240
+      Width           =   885
+   End
+   Begin VB.Label lblStartRed 
+      Caption         =   "StartRed:"
+      ForeColor       =   &H000000FF&
+      Height          =   240
+      Left            =   840
+      TabIndex        =   0
+      Top             =   240
+      Width           =   885
+   End
+End
+Attribute VB_Name = "HGColor"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub txtBarBlue_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBarGreen_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBarRed_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBackBlue_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBackGreen_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBackRed_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBoxBlue_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBoxGreen_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtBoxRed_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtEndBlue_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtEndGreen_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtEndRed_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtStartBlue_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtStartGreen_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtStartRed_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).BarBlue = txtBarBlue.Text
+    SelectedControls(0).BarGreen = txtBarGreen.Text
+    SelectedControls(0).BarRed = txtBarRed.Text
+    SelectedControls(0).BackBlue = txtBackBlue.Text
+    SelectedControls(0).BackGreen = txtBackGreen.Text
+    SelectedControls(0).BackRed = txtBackRed.Text
+    SelectedControls(0).BoxBlue = txtBoxBlue.Text
+    SelectedControls(0).BoxGreen = txtBoxGreen.Text
+    SelectedControls(0).BoxRed = txtBoxRed.Text
+    SelectedControls(0).EndBlue = txtEndBlue.Text
+    SelectedControls(0).EndGreen = txtEndGreen.Text
+    SelectedControls(0).EndRed = txtEndRed.Text
+    SelectedControls(0).StartBlue = txtStartBlue.Text
+    SelectedControls(0).StartGreen = txtStartGreen.Text
+    SelectedControls(0).StartRed = txtStartRed.Text
+End Sub
+
+
+Private Sub PropertyPage_SelectionChanged()
+    txtBarBlue.Text = SelectedControls(0).BarBlue
+    txtBarGreen.Text = SelectedControls(0).BarGreen
+    txtBarRed.Text = SelectedControls(0).BarRed
+    txtBackBlue.Text = SelectedControls(0).BackBlue
+    txtBackGreen.Text = SelectedControls(0).BackGreen
+    txtBackRed.Text = SelectedControls(0).BackRed
+    txtBoxBlue.Text = SelectedControls(0).BoxBlue
+    txtBoxGreen.Text = SelectedControls(0).BoxGreen
+    txtBoxRed.Text = SelectedControls(0).BoxRed
+    txtEndBlue.Text = SelectedControls(0).EndBlue
+    txtEndGreen.Text = SelectedControls(0).EndGreen
+    txtEndRed.Text = SelectedControls(0).EndRed
+    txtStartBlue.Text = SelectedControls(0).StartBlue
+    txtStartGreen.Text = SelectedControls(0).StartGreen
+    txtStartRed.Text = SelectedControls(0).StartRed
+End Sub
+
+

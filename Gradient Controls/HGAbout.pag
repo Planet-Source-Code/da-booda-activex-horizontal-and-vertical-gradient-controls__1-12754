@@ -1,0 +1,59 @@
+VERSION 5.00
+Begin VB.PropertyPage HGAbout 
+   Caption         =   "About"
+   ClientHeight    =   3600
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4800
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3600
+   ScaleWidth      =   4800
+   Begin VB.PictureBox Picture1 
+      Height          =   3015
+      Left            =   120
+      Picture         =   "HGAbout.pgx":0000
+      ScaleHeight     =   2955
+      ScaleWidth      =   2955
+      TabIndex        =   3
+      Top             =   240
+      Width           =   3015
+   End
+   Begin VB.Label Label3 
+      Alignment       =   2  'Center
+      BackStyle       =   0  'Transparent
+      Caption         =   "Public Domain November 13, 2000"
+      ForeColor       =   &H00000000&
+      Height          =   375
+      Left            =   3240
+      TabIndex        =   2
+      Top             =   2880
+      Width           =   1455
+   End
+   Begin VB.Label Label2 
+      Alignment       =   2  'Center
+      BackStyle       =   0  'Transparent
+      Caption         =   "By Da' Booda"
+      ForeColor       =   &H000000FF&
+      Height          =   255
+      Left            =   3240
+      TabIndex        =   1
+      Top             =   720
+      Width           =   1455
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      BackStyle       =   0  'Transparent
+      Caption         =   "Horizontal Gradiant Scroll Bar v1.1"
+      ForeColor       =   &H00FFFFFF&
+      Height          =   495
+      Left            =   3240
+      TabIndex        =   0
+      Top             =   240
+      Width           =   1455
+   End
+End
+Attribute VB_Name = "HGAbout"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
